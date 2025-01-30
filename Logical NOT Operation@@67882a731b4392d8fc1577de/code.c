@@ -7,6 +7,11 @@ char* welcome() {
 int main() {
     int n;
     scanf("%d",&n);
-    printf("%d",!n);
+    if(!n){
+        printf("True";)
+    }
+    else{
+        printf("False")
+    }
     return 0;
 }
