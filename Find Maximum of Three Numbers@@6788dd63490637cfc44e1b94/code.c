@@ -5,11 +5,9 @@ int main() {
     int big=x;
     if(big<y){
         big=y;
-        printf("k");
     }
     if(big<z){
         big=z;
-        printf("l");
     }
     printf("%d",big);
     return 0;
