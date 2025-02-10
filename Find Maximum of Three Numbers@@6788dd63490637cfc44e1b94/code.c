@@ -13,5 +13,4 @@ int main() {
         big=z;
     }
     printf("%d",big);
-    return 0;
 }
