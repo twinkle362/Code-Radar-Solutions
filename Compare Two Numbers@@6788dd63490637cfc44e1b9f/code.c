@@ -1,19 +1,17 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
-    int x,y;
-    scanf("%d",&x,&y);
-    if(x==y){
-        printf("Equal");
+    int num1, num2;
+    scanf("%d %d", &num1, &num2);
+    if (num1 > num2) {
+        printf("First");
     }
-    else if(y>x){
+    else if (num1 < num2) {
         printf("Second");
     }
     else {
-        printf("First");
+        printf("Equal");
     }
+
+    return 0;
 }
