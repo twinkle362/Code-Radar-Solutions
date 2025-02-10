@@ -13,6 +13,6 @@ int main() {
     else if(y==x){
         printf("Zero");
     }
-    else{printf("No")}
+    else{printf("No");}
     return 0;
 }
