@@ -2,9 +2,6 @@
 
 int main() {
     int day;
-    
-    // Asking user to enter a number
-    printf("Enter a number (1-7): ");
     scanf("%d", &day);
     
     // Using switch case to determine the day
