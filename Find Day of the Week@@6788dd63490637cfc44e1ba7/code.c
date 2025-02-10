@@ -28,7 +28,7 @@ int main() {
             printf("Sunday\n");
             break;
         default:
-            printf("Invalid input! Please enter a number between 1 and 7.\n");
+            printf("Invalid");
     }
     
     return 0;
