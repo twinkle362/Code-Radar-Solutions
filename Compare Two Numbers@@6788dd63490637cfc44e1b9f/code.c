@@ -13,5 +13,7 @@ int main() {
     else if(y>x){
         printf("Second");
     }
-    else{"Equal"}
+    else{
+        printf("Equal");
+    }
 }
