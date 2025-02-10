@@ -5,11 +5,11 @@ int main() {
     scanf("%d %d %d",&x,&y,&z);
     if(big<y){
         big=y;
-        printf("k")
+        printf("k");
     }
     if(big<z){
         big=z;
-        Printf("l")
+        printf("l");
     }
     printf("%d",big);
 }
