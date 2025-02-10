@@ -12,4 +12,5 @@ int main() {
         printf("l");
     }
     printf("%d",big);
+    return 0;
 }
