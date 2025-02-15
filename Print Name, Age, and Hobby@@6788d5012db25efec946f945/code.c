@@ -22,6 +22,7 @@ int main(){
                 else{
                     printf("%d",a[j]);
                 }
+                break;
             }
         }
         else{
