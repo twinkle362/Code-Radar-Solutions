@@ -16,6 +16,7 @@ int main(){
             k--;
             printf("%d",k);
         }
+        printf("\n")
     }
     return 0;
 }
