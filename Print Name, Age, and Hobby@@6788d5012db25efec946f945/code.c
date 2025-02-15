@@ -12,7 +12,6 @@ int main(){
             for(int j=i+1;j<len;j++){
                 if(a[j]==' '){
                     printf("\nHobby: ");
-                    break;
                     for(int k=j+1;k<len;k++){
                         printf("%c",a[k]);
                         if(k==len-1){
