@@ -6,9 +6,10 @@ int main(){
     for(int i=1;i<=n;i++){
         char k='A';
         for(int j=1;j<=i;j++){
-            printf("%d ",k);
+            printf("%c ",k);
             k++;
         }
+        printf("\n")
     }
     return 0;
 }
