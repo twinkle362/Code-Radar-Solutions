@@ -19,6 +19,7 @@ int main(){
                         }
                     }
                 }
+                else if(a[j+1]){break;}
                 else{
                     printf("%d",a[j]);
                 }
