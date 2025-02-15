@@ -9,9 +9,11 @@ int main(){
     for(int i=0;i<len;i++){
         if(a[i]==' '){
             printf("\nAge: ");
+            break;
             for(int j=i+1;j<len;j++){
                 if(a[j]==' '){
                     printf("\nHobby: ");
+                    break;
                     for(int k=j+1;k<len;k++){
                         printf("%c",a[k]);
                     }
