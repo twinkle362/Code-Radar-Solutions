@@ -6,11 +6,11 @@ int main(){
     fgets(a, sizeof(a), stdin);
     size_t len=strlen(a);
     for(int i=0;i<len;i++){
-        if(a[i]==" "){
-            a[i]=" and ";
+        if(a[i]==' '){
+            printf(" and ");
         }
         else{
-            printf("you entered: %s",a);
+            printf(a[i]);
         }
     }
     return 0;
