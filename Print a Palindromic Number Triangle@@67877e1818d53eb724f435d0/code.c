@@ -12,8 +12,10 @@ int main(){
             printf("%d",k);
             k++;
         }
+        k--;
         for(int j=1;j<=i-1;j++){
             k--;
+
             printf("%d",k);
         }
         printf("\n");
