@@ -1,6 +1,7 @@
 // Your code here...
 #include<stdio.h>
 #include<string.h>
+#include<stdlib.h>
 int main(){
     char a[100];
     fgets(a,sizeof(a),stdin);
@@ -14,13 +15,16 @@ int main(){
                     printf("\nHobby: ");
                     for(int k=j+1;k<len;k++){
                         printf("%c",a[k]);
+                        if(k==len-1){
+                            exit(0);
+                        }
                     }
                 }
-                else if(a[j+1]){break;}
+                // else if(a[j+1]){break;}
                 else{
                     printf("%d",a[j]);
                 }
-                break;
+                // break;
             }
         }
         else{
