@@ -7,10 +7,10 @@ int main(){
     printf("Name: ");
     for(int i=0;i<len;i++){
         if(a[i]==' '){
-            printf("Age: ");
+            printf("\nAge: ");
             for(int j=i+1;j<len;j++){
                 if(a[j]==' '){
-                    printf("Hobby: ");
+                    printf("\nHobby: ");
                     for(int k=j+1;k<len;k++){
                         printf("%c",a[k]);
                     }
