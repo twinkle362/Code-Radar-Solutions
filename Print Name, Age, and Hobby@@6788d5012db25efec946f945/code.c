@@ -8,21 +8,20 @@ int main(){
     for(int i=0;i<len;i++){
         if(a[i]==' '){
             printf("Age: ");
-            for(int j=i;j<len;j++){
-                if(a[i]==' '){
-                printf("Hobby: ");
-                for(int k=j;k<len;k++){
-                    printf("%c",a[k])
-                }
+            for(int j=i+1;j<len;j++){
+                if(a[j]==' '){
+                    printf("Hobby");
+                    for(int k=j+1;k<len;k++){
+                        printf("%c",a[k]);
+                    }
                 }
                 else{
-                printf("%d",a[i]);
+                    printf["%d",a[j]];
                 }
-        else{
-            printf("%c",a[i]);
             }
         }
+        else{
+            printf("%c",a[i])
+        }
     }
-}
-return 0;
 }
