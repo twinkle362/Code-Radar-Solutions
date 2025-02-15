@@ -10,7 +10,7 @@ int main(){
             a[i]=" and ";
         }
         else{
-            printf("you entered: %s",a)
+            printf("you entered: %s",a);
         }
     }
     return 0;
