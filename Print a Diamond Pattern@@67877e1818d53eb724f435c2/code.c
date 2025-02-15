@@ -25,6 +25,7 @@ int main(){
         for(int j=n-2;j>0;j--){
             printf("*");
         }
+        printf("\n")
     }
     return 0;
 }
