@@ -14,9 +14,6 @@ int main(){
                     printf("\nHobby: ");
                     for(int k=j+1;k<len;k++){
                         printf("%c",a[k]);
-                        if(k==len-1){
-                            break;
-                        }
                     }
                 }
                 else if(a[j+1]){break;}
