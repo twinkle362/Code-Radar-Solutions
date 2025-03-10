@@ -5,7 +5,6 @@ int main() {
     char grade;
 
     // Input from user
-    printf("Enter a grade (A, B, C, D, F): ");
     scanf(" %c", &grade); // Space before %c to avoid newline issues
 
     // Evaluating grade
