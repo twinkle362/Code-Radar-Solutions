@@ -14,12 +14,15 @@ int main(){
             printf("31");
         }
     }
-    else{
+    else if(13>n>7){
         if(n%2==0){
             printf("31");
         }
         else{
             printf("30");
         }
+    }
+    else{
+        printf("Invalid month")
     }
 }
