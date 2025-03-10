@@ -14,7 +14,7 @@ int main(){
             printf("31");
         }
     }
-    else if(13>n>7){
+    else if(7<n<=12){
         if(n%2==0){
             printf("31");
         }
