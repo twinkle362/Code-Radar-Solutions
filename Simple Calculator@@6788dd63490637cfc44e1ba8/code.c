@@ -15,6 +15,10 @@ int main(){
         printf("%d",a * b);
     }
     else if (k=='/'){
-        printf("%d",a * b);
+        if (b==0){
+            printf("error")
+        }
+        else{
+        printf("%d",a * b);}
     }
 }
