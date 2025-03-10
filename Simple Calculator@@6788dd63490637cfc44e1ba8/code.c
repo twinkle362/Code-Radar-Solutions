@@ -5,16 +5,16 @@ int main(){
     char k;
     scanf("%d %d",&a,&b);
     scanf("%c",&k);
-    if (k="+"){
+    if (k='+'){
         printf("%d %c %d",a + b);
     }
-    elif (k="-"){
+    elif (k='-'){
         printf("%d %c %d",a - b);
     }
-    elif (k="+"){
+    elif (k='+'){
         printf("%d %c %d",a * b);
     }
-    elif (k="/"){
+    elif (k='/'){
         printf("%d %c %d",a / b);
     }
 
