@@ -8,13 +8,13 @@ int main(){
     if (k=='+'){
         printf("%d %c %d",a + b);
     }
-    elif (k=='-'){
+    else if (k=='-'){
         printf("%d %c %d",a - b);
     }
-    elif (k=='+'){
+    else if  (k=='+'){
         printf("%d %c %d",a * b);
     }
-    elif (k=='/'){
+    else if (k=='/'){
         printf("%d %c %d",a / b);
     }
 }
