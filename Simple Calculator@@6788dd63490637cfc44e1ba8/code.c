@@ -3,18 +3,18 @@
 int main(){
     int a,b;
     char k;
-    scanf("%d %d",&a,&b);
-    scanf("%c",&k);
+    scanf("%d %d %c",&a,&b,&k);
+
     if (k=='+'){
         printf("%d",a + b);
     }
     else if (k=='-'){
-        printf("%d %c %d",a - b);
+        printf("%d",a - b);
     }
     else if  (k=='+'){
-        printf("%d %c %d",a * b);
+        printf("%d",a * b);
     }
     else if (k=='/'){
-        printf("%d %c %d",a / b);
+        printf("%d",a / b);
     }
 }
