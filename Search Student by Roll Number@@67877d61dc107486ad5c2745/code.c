@@ -27,6 +27,7 @@ int main() {
        if( rol == Sts[i].RoNum){
         printf("Roll Number: %d, Name: %s, Marks: %.2f",Sts[i].RoNum,Sts[i].name,Sts[i].marks);
         int k=1;
+        return 0;
        }
     }
     if( k==0){
