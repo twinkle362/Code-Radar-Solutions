@@ -24,7 +24,7 @@ int main() {
     scanf("%f",&check);
 
     for (int i = 0; i < n; i++) {
-        check<= Sts[i].marks;
+        check< Sts[i].marks;
         k++;
     }
 
