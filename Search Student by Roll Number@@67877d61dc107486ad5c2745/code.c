@@ -10,6 +10,7 @@ struct Stu {
 int main() {
     int n;
     int rol;
+    boll_k=false;
     scanf("%d", &n);
     
     float a = 0;
@@ -25,11 +26,14 @@ int main() {
     for (int i = 0; i < n; i++) {
        if( rol == Sts[i].RoNum){
         printf("Roll Number: %d, Name: %s, Marks: %.2f",Sts[i].RoNum,Sts[i].name,Sts[i].marks);
-       }
-       else{
-        printf("Student not found");
+        boll_k=true;
        }
     }
+    if(boll_k==false){
+        printf("Student not found");
+    }
+
+    
 
     
 
