@@ -20,7 +20,7 @@ int main() {
         scanf("%s", &Sts[i].name); 
         scanf("%f", &Sts[i].marks);
     }
-    scanf("%d"&rol);
+    scanf("%d",&rol);
 
     for (int i = 0; i < n; i++) {
        if( rol == Sts[i].RoNum){
