@@ -27,7 +27,7 @@ int main() {
         printf("Roll Number: %d, Name: %s, Marks: %.2f",Sts[i].RoNum,Sts[i].name,Sts[i].marks);
        }
        else{
-        printf("Student not found")
+        printf("Student not found");
        }
     }
 
