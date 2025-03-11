@@ -21,7 +21,6 @@ int main() {
         scanf("%f", &Sts[i].marks);
     }
     scanf("%f",&check);
-    scanf()
 
     for (int i = 0; i < n; i++) {
         check< Sts[i].marks;
