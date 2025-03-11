@@ -24,9 +24,9 @@ int main() {
         a += Sts[i].marks;
     }
     
-    
-    printf("Average Marks: %.2f\n", a / n);
     printf("Total Marks: %.2f\n", a);
+    printf("Average Marks: %.2f\n", a / n);
+
 
     return 0;
 }
