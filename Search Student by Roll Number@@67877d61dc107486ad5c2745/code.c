@@ -29,7 +29,7 @@ int main() {
         int k=1;
        }
     }
-    if(int k==0){
+    if( k==0){
         printf("Student not found");
     }
 
