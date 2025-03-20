@@ -1,4 +1,3 @@
-// Your code here...
 #include <stdio.h>
 
 // Function to check if the array is sorted in ascending order
@@ -29,4 +28,9 @@ int main() {
     // Checking if the array is sorted
     if (isSorted(arr, n)) {
         printf("The array is sorted.\n");
+    } else {
+        printf("The array is not sorted.\n");
+    }
 
+    return 0;
+}
