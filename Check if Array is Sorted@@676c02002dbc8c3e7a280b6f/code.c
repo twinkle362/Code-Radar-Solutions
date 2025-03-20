@@ -14,7 +14,6 @@ int main() {
     int n;
     
     // Taking input for array size
-    printf("Enter the size of the array: ");
     scanf("%d", &n);
 
     int arr[n];
@@ -27,9 +26,9 @@ int main() {
 
     // Checking if the array is sorted
     if (isSorted(arr, n)) {
-        printf("The array is sorted.\n");
+        printf("sorted.\n");
     } else {
-        printf("The array is not sorted.\n");
+        printf("Not Sorted.\n");
     }
 
     return 0;
