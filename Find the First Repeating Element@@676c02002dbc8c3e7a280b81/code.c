@@ -1,5 +1,4 @@
-// Your code here...#include<stdio.h>
-#include<stdlib.h>
+#include<stdio.h>
 int main(){
     int n;
     scanf("%d",&n);
@@ -7,16 +6,24 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    int count=1;
     int max=0;
+    int max_count=1;
     for(int i=0;i<n;i++){
-        for(int j=i+1;j<n;j++){
-        if(arr[i]*arr[j]>max){
-            max=arr[i]*arr[j];
-        }
-        }
+        count=1;
+       for(int j=i+1;j<n;j++){
+       if(arr[i]==arr[j]){
+        count=count+1;
+       }
+    }if(count>max_count){
+        max_count=count;
+        max=arr[i];
     }
-    printf("%d",abs(max));
-    
-    
-   
+
+    }if(max_count==1){
+        printf("-1");
+    }else{
+    printf("%d",max);}
+
+    return 0;
 }
