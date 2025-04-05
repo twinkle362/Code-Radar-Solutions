@@ -15,7 +15,7 @@ int missingPositive(int n,int arr[]){
     int start,allNeg=1;
     for(int i=0;i<n;i++){
         if(arr[i]>0){
-            if(arr!=1)
+            if(arr[i]!=1)
                 return 1;
             else{
             start=i;
