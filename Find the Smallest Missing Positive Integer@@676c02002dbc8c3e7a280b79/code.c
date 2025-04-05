@@ -27,6 +27,7 @@
 // }
 #include<stdio.h>
 void bubbleSort(int arr[], int n) {
+    int ans;
 
     // Bubble sort
     for (int i = 0; i < n - 1; i++) {
@@ -44,14 +45,17 @@ void bubbleSort(int arr[], int n) {
     }
     for(int i=1;i<n;i++){
         if(arr[i-1]!=arr[i]-1){
-            printf("%d\n",(arr[i-1]+1));
+            ans=arr[i-1]+1
             break;
         }
 
         else {
-             printf("%d\n",(arr[n-1]+1));
-             break;
+            ans=arr[n-1]+1;
+            break;
         }
+    }
+    if (ans<=0){
+        printf("%d",1)
     }
 }
 int main(){
