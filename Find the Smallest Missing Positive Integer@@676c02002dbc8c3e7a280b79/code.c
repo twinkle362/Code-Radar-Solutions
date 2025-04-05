@@ -25,11 +25,11 @@ int main(){
 
     }
     printf("\n");
-    int allNeg=0;
+    int allNeg=1;
     for(int i=0;i<n;i++){
         if(arr[i]>0){
             start=i;
-            allNeg=1;
+            allNeg=0;
             break;
         }
     }
