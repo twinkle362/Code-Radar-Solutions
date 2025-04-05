@@ -40,7 +40,7 @@ void bubbleSort(int arr[], int n) {
     }
     for(int i=1;i<n;i++){
         if(arr[i-1]!=arr[i]-1){
-            printf("%d",arr[i-1]+1);
+            printf("%d",(arr[i-1]+1));
         }
     }
 }
