@@ -46,7 +46,7 @@
 //     return 0;
 // }
 #include<stdio.h>
-int rotate(int n,int arr[n],int k){
+void rotate(int n,int arr[n],int k){
     int tem;
     while(k>=1){
     for(int i=1;i<n;i++){
@@ -68,5 +68,5 @@ int main(){
     }
     int k;
     scanf("%d",&k);
-    printf("%d",rotate(n,arr,k));
+    rotate(n,arr,k);
 }
