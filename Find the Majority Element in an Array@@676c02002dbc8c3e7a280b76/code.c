@@ -46,7 +46,7 @@ int main(){
     }
     for(int i=0;i<1000;i++){
         if(arr2[arr[i]]>n/2){
-            printf("%d",arr2[arr[i]]);
+            printf("%d",arr[i]);
             return 0;
         }
         else{
