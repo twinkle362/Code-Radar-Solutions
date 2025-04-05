@@ -12,7 +12,7 @@ void bubbleSort(int arr[], int n) {
 }
 
 int missingPositive(int n,int arr[]){
-    int allNeg=1;
+    int start,allNeg=1;
     for(int i=0;i<n;i++){
         if(arr[i]>0){
             start=i;
@@ -36,7 +36,6 @@ int missingPositive(int n,int arr[]){
 
 int main(){
     int n;
-    int start;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
