@@ -44,7 +44,7 @@ int main(){
     }
     for(int i=0;i<n;i++){
         if(arr2[arr[i]]>0){
-            printf("%d %d",arr[i],arr2[arr[i]] );
+            printf("%d %d\n",arr[i],arr2[arr[i]] );
         }
     }
 }
