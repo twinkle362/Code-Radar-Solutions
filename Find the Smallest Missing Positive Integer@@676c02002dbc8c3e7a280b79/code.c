@@ -1,27 +1,58 @@
-// Your code here...
-#include <stdio.h>
+// // Your code here...
+// #include <stdio.h>
 
-int main() {
-    int n, arr[100], i, j, missing = 1;
-    scanf("%d", &n);
+// int main() {
+//     int n, arr[100], i, j, missing = 1;
+//     scanf("%d", &n);
 
-    for (i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
-    }
-    for (i = 1; ; i++) { 
-        int found = 0;
-        for (j = 0; j < n; j++) {
-            if (arr[j] == i) {
-                found = 1;
-                break;
+//     for (i = 0; i < n; i++) {
+//         scanf("%d", &arr[i]);
+//     }
+//     for (i = 1; ; i++) { 
+//         int found = 0;
+//         for (j = 0; j < n; j++) {
+//             if (arr[j] == i) {
+//                 found = 1;
+//                 break;
+//             }
+//         }
+//         if (!found) {
+//             missing = i;
+//             break;
+//         }
+//     }
+
+//     printf("%d\n", missing);
+//     return 0;
+// }
+#include<stdio.h>
+void bubbleSort(int arr[], int n) {
+
+    // Bubble sort
+    for (int i = 0; i < n - 1; i++) {
+        for (int j = 0; j < n - i - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
+                int temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
             }
         }
-        if (!found) {
-            missing = i;
-            break;
+    }
+    for(int i=1;i<n;i++){
+        if(arr[i-1]!=arr[i]-1){
+            printf("%d",arr[i-1]+1);
+            return 0;
         }
     }
+}
+int main(){
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+    for(int i=0;i<n;i++){
+        scanf("%d",&arr[i]);
+    }
+    bubbleSort(arr, n);
+    
 
-    printf("%d\n", missing);
-    return 0;
 }
