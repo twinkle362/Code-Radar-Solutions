@@ -91,9 +91,9 @@ void bubbleSort(int arr[], int n) {
        if( arr[i-1]==arr[i]-1){
             ans+=1;
         }
-       else if(ans<ans2){
+       else if(ans>ans2){
             ans2=ans;
-            ans=0;
+            ans=1;
         }
     }
     printf("%d",ans2);
