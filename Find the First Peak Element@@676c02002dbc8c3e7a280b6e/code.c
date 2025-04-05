@@ -5,9 +5,9 @@ int main(){
             if(arr[i-2]<arr[i-1]>arr[i]){
                 return arr[i];
             }
-            else{
-                return -1;
-            }
+            // else{
+            //     return -1;
+            // }
         }
     }
     int n;
