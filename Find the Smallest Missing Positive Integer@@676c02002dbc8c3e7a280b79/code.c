@@ -38,13 +38,19 @@ void bubbleSort(int arr[], int n) {
             }
         }
     }
+    if(n==1){
+        printf("%d",1);
+        return;
+    }
     for(int i=1;i<n;i++){
         if(arr[i-1]!=arr[i]-1){
             printf("%d\n",(arr[i-1]+1));
-
+            break;
         }
+
         else {
              printf("%d\n",(arr[n-1]+1));
+             break;
         }
     }
 }
