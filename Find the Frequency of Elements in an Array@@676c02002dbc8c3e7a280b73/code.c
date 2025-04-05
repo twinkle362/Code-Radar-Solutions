@@ -39,7 +39,7 @@ int main(){
     
     scanf("%d",&n);
     int arr[n];
-    int printed[1000]={0}
+    int printed[1000]={0};
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
