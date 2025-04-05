@@ -51,6 +51,6 @@ int main(){
             printf("%d %d\n", arr[i], arr2[arr[i]]);
             printed[arr[i]] = 1;
     }
-    return 0;
 }
+return 0;
 }
