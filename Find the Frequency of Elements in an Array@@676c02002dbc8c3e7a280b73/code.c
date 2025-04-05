@@ -39,7 +39,7 @@ int main(){
     
     scanf("%d",&n);
     int arr[n];
-    int arr3[n]={0};
+    int printed[1000]={0}
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
@@ -47,12 +47,9 @@ int main(){
         arr2[arr[i]]+=1;
     }
     for(int i=0;i<n;i++){
-        if (arr3[i]==1){
-            continue;
-        }
-        if(arr2[arr[i]]>0){
-            printf("%d %d\n", arr[i] ,arr2[arr[i]]);
-            arr3[i]=1;
-        }
+       if (!printed[arr[i]]) {
+            printf("%d %d\n", arr[i], arr2[arr[i]]);
+            printed[arr[i]] = 1;
     }
+    return 0;
 }
