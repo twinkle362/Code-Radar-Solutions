@@ -96,6 +96,8 @@ void bubbleSort(int arr[], int n) {
             ans=1;
         }
     }
+    if (ans > ans2)
+    ans2 = ans;
     printf("%d",ans2);
 
 }
