@@ -24,6 +24,7 @@ int main(){
         printf("%d ",arr[i]);
 
     }
+    printf("\n");
     for(int i=0;i<n;i++){
         if(arr[i]>0){
             start=i;
