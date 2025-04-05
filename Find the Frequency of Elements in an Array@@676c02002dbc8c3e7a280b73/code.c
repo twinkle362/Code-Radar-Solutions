@@ -37,7 +37,7 @@ int main(){
     
     scanf("%d",&n);
     int arr[n];
-    int arr3[n]=arr[n];
+    int arr3[n]={0};
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
@@ -49,7 +49,7 @@ int main(){
             continue;
         }
         if(arr2[arr[i]]>0){
-            printf("%d %d", arr[i] ,arr2[arr[i]]);
+            printf("%d %d\n", arr[i] ,arr2[arr[i]]);
             arr3[i]=1;
         }
     }
