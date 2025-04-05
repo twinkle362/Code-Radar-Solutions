@@ -10,6 +10,30 @@ void bubbleSort(int arr[], int n) {
         }
     }
 }
+
+int missingPositive(int n,int arr[]){
+    int allNeg=1;
+    for(int i=0;i<n;i++){
+        if(arr[i]>0){
+            start=i;
+            allNeg=0;
+            break;
+        }
+    }
+    if(allNeg)
+        return 1;
+
+    int missing=arr[n-1]+1;
+
+    for(int i=start;i<n-1;i++){
+        if(arr[i+1]!=arr[i]+1){
+            missing=arr[i]+1;
+            return missing;
+        }
+    }
+    return missing;
+}
+
 int main(){
     int n;
     int start;
@@ -25,27 +49,7 @@ int main(){
 
     }
     printf("\n");
-    int allNeg=1;
-    for(int i=0;i<n;i++){
-        if(arr[i]>0){
-            start=i;
-            allNeg=0;
-            break;
-        }
-    }
-    if(allNeg){
-        printf("1");
-    }
-
-    int missing=arr[n-1]+1;
-
-    for(int i=start;i<n-1;i++){
-        if(arr[i+1]!=arr[i]+1){
-            missing=arr[i]+1;
-            break;
-        }
-    }
-    printf("%d",missing);
     
+    printf("%d",missingPositive(n,arr));
 
 }
