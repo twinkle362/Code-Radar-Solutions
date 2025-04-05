@@ -50,13 +50,14 @@ void rotate(int n,int arr[n],int k){
     int tem;
     while(k>=1){
     for(int i=1;i<n;i++){
-        tem=arr[i-1];
-        arr[i-1]=arr[i];
+        tem=arr[0];
+        arr[0]=arr[i];
         arr[i]=tem;
         }
+        k--;
     }
      for(int i=0;i<n;i++){
-        printf("%d",arr[i]);
+        printf(" %d ",arr[i]);
     }
 }
 int main(){
