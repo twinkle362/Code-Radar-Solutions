@@ -45,7 +45,7 @@ void bubbleSort(int arr[], int n) {
     }
     for(int i=1;i<n;i++){
         if(arr[i-1]!=arr[i]-1){
-            ans=arr[i-1]+1
+            ans=arr[i-1]+1;
             break;
         }
 
@@ -55,7 +55,7 @@ void bubbleSort(int arr[], int n) {
         }
     }
     if (ans<=0){
-        printf("%d",1)
+        printf("%d",1);
     }
 }
 int main(){
