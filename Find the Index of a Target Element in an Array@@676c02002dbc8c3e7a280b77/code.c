@@ -39,9 +39,9 @@ int main(){
             printf("%d",i);
             return 0;
         }
-        // else{
-        //     return -1;
-        // }
+        else{
+            printf("%d",-1);
+        }
 
     }
 }
