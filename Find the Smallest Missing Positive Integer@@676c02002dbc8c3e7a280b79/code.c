@@ -25,14 +25,16 @@ int main(){
 
     }
     printf("\n");
+    int allNeg=0;
     for(int i=0;i<n;i++){
         if(arr[i]>0){
             start=i;
+            allNeg=1;
             break;
         }
-        else{
-            printf("%d",1);
-        }
+    }
+    if(allNeg){
+        printf("1");
     }
 
     int missing=arr[n-1]+1;
