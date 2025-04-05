@@ -50,7 +50,8 @@ int main(){
             return 0;
         }
         else{
-            return -1;
+            printf("%d",-1);
+            return 0;
         }
     }
     
