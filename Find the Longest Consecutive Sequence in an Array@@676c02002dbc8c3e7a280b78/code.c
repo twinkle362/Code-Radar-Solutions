@@ -89,7 +89,7 @@ void bubbleSort(int arr[], int n) {
     }
     for(int i=1;i<n;i++){
        if( arr[i-1]==arr[i]-1){
-            int ans+=1;
+            ans+=1;
         }
        else if(ans>ans2){
             ans2=ans;
