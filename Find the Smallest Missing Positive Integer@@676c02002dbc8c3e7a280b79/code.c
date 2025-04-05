@@ -42,6 +42,7 @@ int main(){
     for(int i=start;i<n-1;i++){
         if(arr[i+1]!=arr[i]+1){
             missing=arr[i]+1;
+            break;
         }
     }
     printf("%d",missing);
