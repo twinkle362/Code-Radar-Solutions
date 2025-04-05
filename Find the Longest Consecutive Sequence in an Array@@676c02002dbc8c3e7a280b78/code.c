@@ -71,9 +71,10 @@
 // }
 #include<stdio.h>
 void bubbleSort(int arr[], int n) {
+    int ans=0;
+    int ans2=0;
     for (int i = 0; i < n - 1; i++) {
-        int ans=0;
-        int ans2=0;
+        
         // Flag to check if any swapping happened
     
 
