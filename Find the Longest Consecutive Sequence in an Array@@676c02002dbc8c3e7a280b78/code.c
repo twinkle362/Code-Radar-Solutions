@@ -87,13 +87,13 @@ void bubbleSort(int arr[], int n) {
         }
     }
     for(int i=0;i<n;i++){
-       if( arr[i]==arr[i]+1){
+       if( arr[i]==arr[i+1]-1){
             int ans+=1;
-       }
+        }
        else if(ans>ans2){
             ans2=ans;
             ans=0;
-       }
+        }
     }
     printf("%d",ans2);
 
