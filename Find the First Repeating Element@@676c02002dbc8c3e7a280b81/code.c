@@ -48,6 +48,7 @@ void bubbleSort(int arr[], int n) {
         }
         else{
             printf("%d",-1);
+            break;
         }
     }
 
