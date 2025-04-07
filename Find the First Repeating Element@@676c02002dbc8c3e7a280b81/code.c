@@ -44,13 +44,15 @@ void bubbleSort(int arr[], int n) {
     for(int i=1;i<n;i++){
         if(arr[i-1]==arr[i]){
             printf("%d",arr[i-1]);
-            break;
+            return ;
         }
         // else{
         //     printf("%d",-1);
         //     break;
         // }
     }
+    printf("%d",-1);
+        return;
 
 }
 int main(){
