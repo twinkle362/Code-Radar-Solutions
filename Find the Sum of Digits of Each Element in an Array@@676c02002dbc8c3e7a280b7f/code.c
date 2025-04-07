@@ -30,7 +30,14 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        int n=abs(arr[i]);
+        int n=arr[i];
+        if(n<0){
+            n=n*(-1);
+        }
+        else{
+            n=n;
+        }
+
         int ans=0;
         while(n>0){
             int r=n%10;
