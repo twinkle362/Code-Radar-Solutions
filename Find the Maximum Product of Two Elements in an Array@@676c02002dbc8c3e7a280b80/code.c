@@ -22,6 +22,7 @@
    
 // }
 #include<stdio.h>
+#include <stdlib.h> 
 void bubbleSort(int arr[], int n) {
     int i, j, temp;
     // Traverse through all array elements
