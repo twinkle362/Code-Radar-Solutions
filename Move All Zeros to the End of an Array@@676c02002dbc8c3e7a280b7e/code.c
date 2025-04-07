@@ -24,7 +24,7 @@
 // }
 #include<stdio.h>
 void swipe(int n,int arr[n]){
-    while(n>0){
+    while(n>1){
         for(int i=1;i<n;i++){
             if(arr[i-1]==0){
                 int tem;
