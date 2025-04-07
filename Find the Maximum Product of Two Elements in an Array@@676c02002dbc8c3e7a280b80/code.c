@@ -29,7 +29,7 @@ void bubbleSort(int arr[], int n) {
         // Last i elements are already in place
         for (j = 0; j < n - i - 1; j++) {
             // Swap if the element found is greater than the next element
-            if (arr[j] > arr[j + 1]) {
+            if (abs(arr[j]) > abs(arr[j + 1])) {
                 // Swap arr[j] and arr[j+1]
                 temp = arr[j];
                 arr[j] = arr[j + 1];
