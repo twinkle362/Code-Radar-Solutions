@@ -31,11 +31,15 @@ int check(int n, int arr[n]){
     int ans=0,isprime;
     for(int i=0;i<n;i++){
         isprime = 1;
+        if(arr[i]<2)
+            isprime = 0;
+        else{
         for(int j=2;j<arr[i];j++){
             if(arr[i]%j==0){
                 isprime = 0;
                 break;
             }
+        }
         }
         if(isprime)
             ans+=1;
