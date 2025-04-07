@@ -28,14 +28,17 @@
 // }
 #include<stdio.h>
 int check(int n, int arr[n]){
-    int ans=0;
+    int ans=0,isprime;
     for(int i=0;i<n;i++){
+        isprime = 1;
         for(int j=2;j<arr[i];j++){
             if(arr[i]%j==0){
-                ans+=1;
+                isprime = 0;
                 break;
             }
         }
+        if(isprime)
+            ans+=1;
     }
     return ans;
 }
