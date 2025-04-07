@@ -46,6 +46,9 @@ void bubbleSort(int arr[], int n) {
             printf("%d",arr[i-1]);
             break;
         }
+        else{
+            printf("%d",-1);
+        }
     }
 
 }
